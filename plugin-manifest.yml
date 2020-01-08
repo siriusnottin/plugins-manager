@@ -1,0 +1,25 @@
+# List of plugins activation set based on the actual environment
+# see: https://github.com/PrimeTimeCode/wp-plugin-activation-manifest
+global:
+  enable:
+    - soil/soil.php
+    - wp-stage-switcher/wp-stage-switcher.php
+    - safe-svg/safe-svg.php
+
+development:
+  enable:
+    - query-monitor/query-monitor.php
+    - wp-optimize/wp-optimize.php
+  disable:
+    - cloudflare/cloudflare.php
+    - wordpress-seo/wp-seo.php
+    - stream/stream.php
+
+production:
+  disable:
+    - wp-optimize/wp-optimize.php
+    - regenerate-thumbnails/regenerate-thumbnails.php
+    - wp-crontrol/wp-crontrol.php
+    - fakerpress/fakerpress.php
+    - view-admin-as/view-admin-as.php
+    - query-monitor/query-monitor.php
