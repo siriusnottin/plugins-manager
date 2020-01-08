@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name:  Plugins Manager
-Plugin URI:   https://github.com/PrimeTimeCode/wp-plugin-activation-manifest
+Plugin URI:   https://github.com/siriusnottin/plugins-manager
 Author:       Sirius Nottin
 Author URI:   https://nottin.me
 Description:  Manage the activation status of the website's plugins
